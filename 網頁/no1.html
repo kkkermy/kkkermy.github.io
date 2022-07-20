@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>作業一</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: 5px 290px 80px 130px 330px 130px 60px 5px;
+            grid-template-rows: 60px 190px 20px 60px 390px 60px 10px;
+            width:1030px;
+            height:790px;
+        }
+        .container2 {
+            display: grid;
+            grid-template-columns: 40px 210px 90px 220px 40px;
+            grid-template-rows: 40px 160px 160px 40px;
+            width:600px;
+            height:400px;
+        }
+
+        .A {
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            background-color:#4F4F4F;
+            font-size:50px;
+            font-family: "新細明體";
+            color: #E0E0E0;
+            padding: 40px 50px;
+            border-radius: 10px;
+
+        }
+        .B {
+            grid-column-start: 6;
+            grid-column-end: 8;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            background-color: 	#4F4F4F;
+            font-size:50px;
+            font-family: "新細明體";
+            color: #E0E0E0;
+            padding: 40px 50px;
+            border-radius: 10px;
+
+        }
+        .C {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 7;
+            background-color: 	#4F4F4F;
+            font-size:50px;
+            font-family: "新細明體";
+            color: #E0E0E0;
+            padding: 40px 50px;
+            border-radius: 10px;
+            
+        }
+        .D {
+            grid-column-start: 4;
+            grid-column-end: 7;
+            grid-row-start: 5;
+            grid-row-end: 6;
+            background-color: 	#4F4F4F;
+            border-radius: 10px;
+        }
+        
+        .E {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color:#E0E0E0;
+            font-size:50px;
+            font-family: "新細明體";
+            color: rgb(68,68,68);
+            padding: 40px 50px;
+            border-radius: 10px;
+
+        }
+        .F {
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            background-color:#E0E0E0;
+            font-size:50px;
+            font-family: "新細明體";
+            color: #4F4F4F;
+            padding: 20px 20px;
+            border-radius: 10px;
+
+        }
+        .G {
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            background-color:#E0E0E0;
+            font-size:50px;
+            font-family: "新細明體";
+            color: rgb(68,68,68);
+            padding: 40px 50px;
+            border-radius: 10px;
+            
+            
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="A">A</div>
+        <div class="B">B</div>
+        <div class="C">C</div>
+        <div class="D">
+            <div class="container2">
+                <div class="E">E</div>
+                <div class="F">F</div>
+                <div class="G">G</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
